@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:process="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp" >
+
+
+    <TextView
+        android:id="@+id/id_add_guide_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="@string/record_fp_title_positive"
+        android:textAppearance="?android:attr/textAppearanceLarge"/> 
+
+    <TextView
+        android:id="@+id/id_add_guide_title_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_add_guide_title"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="@string/record_fp_content_first_positive"
+        android:textAppearance="?android:attr/textAppearanceMedium"/> 
+
+    <FrameLayout
+        android:id="@+id/id_add_guide_content_frame"
+        android:layout_below="@+id/id_add_guide_title_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"> 
+
+        <TextView
+            android:id="@+id/id_add_guide_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/record_fp_content_remove_first"/> 
+
+        <TextView
+            android:id="@+id/id_add_guide_content_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/record_fp_content_remove"
+            android:visibility="gone"/>
+ 
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/id_add_guide"
+        android:layout_below="@+id/id_add_guide_content_frame"
+        android:padding="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/> 
+
+    <ma.view.FingerProcess
+        android:id="@+id/id_fp_process"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/id_add_guide_content_frame"
+        android:visibility="gone"> 
+    </ma.view.FingerProcess>
+<!-- android:layout_above="@+id/id_btn_stop"-->
+
+    <Button
+        android:id="@+id/id_btn_stop"
+        android:layout_alignParentBottom="true"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/digital_btn"
+        android:layout_centerHorizontal="true"
+        android:text="@string/cancel" />
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/id_ll_setup_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="gone"> 
+
+        <Button
+            android:id="@+id/id_btn_rename"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/digital_btn"
+            android:text="@string/rename"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/id_btn_finish"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/digital_btn"
+            android:text="@string/finish" />
+    </LinearLayout>
+
+</RelativeLayout>

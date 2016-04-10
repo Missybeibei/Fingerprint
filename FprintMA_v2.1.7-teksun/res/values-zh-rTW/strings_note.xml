@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="finger_note">使用手册</string>
+    
+    <string name="finger_record">指纹录入</string>
+    <string name="finger_record_note">在新建指纹界面，根据录入提示重复按压传感器完成指纹的录入</string>
+    
+    <string name="finger_applock">应用加密</string>
+    <string name="finger_applock_note">在应用加密列表选择加密的应用后，进入加密应用前，需要通过指纹验证</string>
+    
+    <string name="finger_screen">屏幕解锁</string>
+    <string name="finger_screen_note">系统解锁界面按压指纹传感器进行屏幕解锁</string>
+    
+    <string name="finger_photo">拍照</string>
+    <string name="finger_photo_note">拍照界面短压指纹传感器拍照、长按传感器进行连拍</string>
+    
+</resources>

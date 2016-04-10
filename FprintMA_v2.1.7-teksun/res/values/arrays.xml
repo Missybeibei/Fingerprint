@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="number_bg_array">
+        <item>@drawable/number_0</item>
+        <item>@drawable/number_1</item>
+        <item>@drawable/number_2</item>
+        <item>@drawable/number_3</item>
+        <item>@drawable/number_4</item>
+        <item>@drawable/number_5</item>
+        <item>@drawable/number_6</item>
+        <item>@drawable/number_7</item>
+        <item>@drawable/number_8</item>
+        <item>@drawable/number_9</item>
+        <item>@drawable/delete_bg</item>
+    </integer-array>
+    
+    <!-- 加密应用要过滤掉的包名 -->
+    <string-array name="exclude_app">
+        <item>"com.bird.flashlight"</item>
+        <item>"com.bird.fingerprintunlock"</item>
+        <item>"com.yunos.camera"</item>
+        <item>"com.android.deskclock"</item>
+    </string-array>
+
+</resources>

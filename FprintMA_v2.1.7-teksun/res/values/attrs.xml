@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ProcessIndication">
+        <attr name="process_index" format="integer" />
+        <attr name="shader_start_color" format="color|reference" />
+        <attr name="shader_end_color" format="color|reference" />
+        <attr name="shader_width" format="dimension" />
+    </declare-styleable>
+
+</resources>

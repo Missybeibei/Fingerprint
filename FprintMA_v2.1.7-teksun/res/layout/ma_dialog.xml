@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dp"
+    android:layout_height="160dp"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ma_dlg_title"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" 
+        android:background="#ffffff">
+        <ImageView
+            android:id="@+id/ma_dlg_ticon"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/ic_ma_error" />
+        <TextView
+            android:id="@+id/ma_dlg_ttext"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="4dp"
+            android:gravity="center"
+            android:text="@string/ma_dlg_error"
+            android:textColor="@color/blue"
+            android:textSize="21sp" 
+            android:background="#ffffff"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:background="#ffffff">
+        <RelativeLayout
+            android:id="@+id/ma_dlg_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+            <Button
+                android:id="@+id/ma_dlg_confirm"
+                android:layout_width="72dp"
+                android:layout_height="36dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/ic_ma_btn_down"
+                android:gravity="center"
+                android:text="@string/ma_dlg_yes"
+                android:textSize="21sp" />
+            <Button
+                android:id="@+id/ma_dlg_cancel"
+                android:layout_width="72dp"
+                android:layout_height="36dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@+id/ma_dlg_confirm"
+                android:background="@drawable/ic_ma_btn_down"
+                android:gravity="center"
+                android:text="@string/ma_dlg_no"
+                android:textSize="21sp"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/ma_dlg_content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/ma_dlg_layout"
+            android:layout_marginLeft="4dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="21sp" 
+            android:background="#ffffff"/>
+    </RelativeLayout>
+
+</LinearLayout>

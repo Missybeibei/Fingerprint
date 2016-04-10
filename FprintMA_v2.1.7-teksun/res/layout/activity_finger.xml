@@ -1,0 +1,205 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+  
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#F4F4F4"
+        android:paddingLeft="16dp"
+        android:paddingTop="5dp"
+        android:text="@string/fingerprint_function"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#DBDBDB" />
+
+    <LinearLayout
+        android:id="@+id/manage_finger_act"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="325dp"
+            android:layout_height="70dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="@string/fingerprint_mag"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/fingerprint_msg"
+                android:textColor="#7f070707"
+                android:textSize="12dp"/> 
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/arrow_right"> 
+        </ImageView>
+    </LinearLayout>
+
+   <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#DBDBDB" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#F4F4F4"
+        android:paddingLeft="16dp"
+        android:paddingTop="5dp"
+        android:text="@string/fingerprint_touch"
+        android:textSize="16dp" 
+        android:visibility="gone"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#DBDBDB" 
+        android:visibility="gone"/>
+	<!-- 长按指纹接听电话：mandy.wu 20151029 begin-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#ffffff"
+        android:orientation="horizontal" 
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/id_manage_finger_call"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="@string/fingerprint_call"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/fingerprint_call_msg"
+                android:textColor="#7f070707"
+                android:textSize="12dp"/> 
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/manage_screen_off_on_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp"
+            android:switchMinWidth="53dp" />
+    </LinearLayout>
+     <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#DBDBDB" 
+         android:visibility="gone"/>
+	<!-- 长按指纹接听电话：mandy.wu 20151029 end-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal" 
+         android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/id_manage_finger_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="@string/fingerprint_phone"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/fingerprint_phone_msg"
+                android:textColor="#7f070707"
+                android:textSize="12dp"/> 
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/manage_screen_off_on_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp"
+            android:switchMinWidth="53dp"/> 
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#DBDBDB" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" 
+         android:visibility="gone">
+
+        <TextView
+            android:id="@+id/id_manage_finger_explain"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:text="@string/fingerprint_explain_msg"
+            android:textColor="#7f070707"
+            android:textSize="12dp"/> 
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#DBDBDB" 
+        android:visibility="gone"/>
+
+</LinearLayout>

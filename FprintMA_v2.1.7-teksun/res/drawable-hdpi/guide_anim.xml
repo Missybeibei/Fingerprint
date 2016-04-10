@@ -1,0 +1,9 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/animotion_00" android:duration="300" />
+    <item android:drawable="@drawable/animotion_01" android:duration="300" />
+    <item android:drawable="@drawable/animotion_02" android:duration="300" />
+    <item android:drawable="@drawable/animotion_03" android:duration="300" />
+    <item android:drawable="@drawable/animotion_04" android:duration="300" />
+    
+
+</animation-list>

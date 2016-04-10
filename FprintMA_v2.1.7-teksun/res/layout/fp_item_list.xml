@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fp_item"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#ffffff"
+    android:gravity="center_vertical" >
+
+    <ImageView
+        android:id="@+id/ma_item_img"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:layout_marginLeft="4dp" 
+        android:visibility="gone"/>
+    
+    <TextView
+        android:id="@+id/fp_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="32dp"
+        android:gravity="center_vertical"
+        android:text="@string/app_name"
+        android:textColor="#000000"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textSize="18sp" >
+    </TextView>
+    
+    <TextView 
+        android:id="@+id/ma_item_info"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/ma_item_img"      
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/fp_item_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/arrow_right" >
+    </ImageView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:background="#DBDBDB" />
+
+</RelativeLayout>

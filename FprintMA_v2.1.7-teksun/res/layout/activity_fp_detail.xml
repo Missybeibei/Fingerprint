@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:padding="15dp" >
+
+    <ImageView
+        android:id="@+id/id_img_fp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/fingerprint_detail" />
+
+    <TextView
+        android:id="@+id/id_tv_fp_rename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_img_fp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:text="@string/fp_name"
+        android:textSize="18sp" 
+        android:background="#ffffff"/>
+
+    <EditText
+        android:background="@drawable/edittext_bg"
+        android:id="@+id/id_edt_fp_rename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_img_fp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/id_btn_rename"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/id_btn_delete"
+        android:layout_centerHorizontal="true"
+        android:text="@string/rename" 
+        android:background="@drawable/digital_btn"    
+    />
+
+    <Button
+        android:id="@+id/id_btn_confirm_rename"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/id_btn_delete"
+        android:layout_centerHorizontal="true"
+        android:text="@string/confirm"
+        android:background="@drawable/digital_btn"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/id_btn_delete"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above = "@+id/id_btn_addlaunch"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:text="@string/delete"
+        android:background="@drawable/digital_btn"
+        android:textColor="#ff0000" />
+    
+    <Button
+        android:id="@+id/id_btn_addlaunch"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:text="@string/ma_quick_lauch_app"
+        android:background="@drawable/digital_btn"
+        android:visibility="visible"/>
+
+</RelativeLayout>

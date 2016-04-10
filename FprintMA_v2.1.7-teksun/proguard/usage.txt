@@ -1,0 +1,91 @@
+com.ma.fprintlib.R
+com.ma.fprintlib.R$drawable
+com.ma.fprintlib.R$string
+com.ma.fprintlib.R$style
+ma.fprint.BuildConfig
+ma.fprint.CaptureActivity$CaptureView:
+    155:158:public void drawText(int,int,java.lang.String)
+ma.fprint.Manifest
+ma.fprint.Manifest$permission
+ma.fprint.Prompt:
+    12:12:public Prompt()
+ma.fprint.R
+ma.fprint.R$attr
+ma.fprint.R$color
+ma.fprint.R$dimen
+ma.fprint.R$drawable
+ma.fprint.R$id
+ma.fprint.R$layout
+ma.fprint.R$string
+ma.fprint.R$style
+ma.library.FingerCapture:
+    30:36:public void stopEnroll()
+ma.library.FingerThread:
+    public static final int SPI_COMMUNICATE_FAIL
+    public static final int FINGER_NONE
+    public static final int FINGER_HALF_DOWN
+    public static final int FINGER_DOWN
+    public static final int FINGER_UP
+    public static final int MATCH_SUCESS
+    public static final int MATCH_FAIL
+    public static final int MATCH_F1_OVER_TIME
+    64:65:public void stopFingerThread()
+    68:69:public void setListener(android.os.Handler)
+    72:73:public void removeListener(android.os.Handler)
+ma.library.PhoneStatusBroadcastReceiver:
+    public static final java.lang.String SCREEN_ON
+    public static final java.lang.String SCREEN_OFF
+    public static final java.lang.String KEY_F1
+    public static final java.lang.String KEY_HOME
+    public static final java.lang.String KEY_POWER
+    public static final java.lang.String MA_UNLOCK
+    public static final int screen_on
+    public static final int screen_off
+    public static final int key_f1
+    public static final int screen_unlocked
+    public static final int key_home
+ma.library.Util:
+    16:16:public Util()
+    18:20:public static java.lang.String getMessage(java.lang.Exception)
+    72:74:public static void Vibrate(android.content.Context,long)
+ma.release.Fprint:
+    public static final int PLAT_CMM
+    public static final int PLAT_MTK
+    public static final int STUFF_TSV
+    public static final int STUFF_PLC
+    public static final int POWER_SLEEP
+    public static final int POWER_WAKE
+    public static final int ENROLL_GRADE
+    public static final int MATCH_TIMES
+    5:5:public Fprint()
+    44:44:public static int close()
+    48:48:public static int ioctl(int,int)
+    88:88:public static int score(byte[],int)
+    96:96:public static int stop()
+    100:100:public static boolean isStoped()
+    104:104:public static int setINT()
+    109:109:public int lopen(java.lang.String)
+    113:113:public int lclose()
+    117:117:public int lwrite(byte[],int)
+ma.release.Jnifp:
+    public static final int DRV_DEBUG
+    public static final int DRV_IRQEN
+    public static final int DRV_SPEED
+    public static final int DRV_RDLEN
+    public static final int DRV_LINKD
+    public static final int DRV_STNUM
+    public static final int DRV_VDATE
+    public static final int JNI_DEBUG
+    public static final int JNI_DB_CLR
+    public static final int JNI_DB_SYNC
+    public static final int JNI_PMTC
+    4:4:public Jnifp()
+    public static native int close()
+    public static native int stop()
+    public static native int isStoped()
+    public static native int setINT()
+    public static native int lopen(java.lang.String)
+    public static native int lclose()
+    public static native int lwrite(byte[],int)
+ma.statusMachine.Sensor:
+    72:72:public ma.statusMachine.Sensor$Phone getPhoneState()

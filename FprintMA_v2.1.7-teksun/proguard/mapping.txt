@@ -1,0 +1,375 @@
+ma.fprint.CaptureActivity -> ma.fprint.CaptureActivity:
+    ma.library.FingerAction mFingerActioninCapture -> b
+    ma.library.PhoneStatusBroadcastReceiver mReceiver -> c
+    ma.library.FingerCapture mFC -> a
+    android.os.Handler mHandler -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    void exit() -> a
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void access$0(ma.fprint.CaptureActivity) -> a
+ma.fprint.CaptureActivity$1 -> ma.fprint.a:
+    ma.fprint.CaptureActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+ma.fprint.CaptureActivity$CaptureView -> ma.fprint.b:
+    android.view.SurfaceHolder surHolder -> b
+    android.graphics.Paint mPaint -> c
+    int W -> d
+    int H -> e
+    android.graphics.Canvas mCanvas -> f
+    float mScale -> g
+    int mWidth -> h
+    int startY -> i
+    int bmpW -> j
+    int bmpH -> k
+    ma.fprint.CaptureActivity this$0 -> a
+    void surfaceCreated(android.view.SurfaceHolder) -> surfaceCreated
+    void surfaceChanged(android.view.SurfaceHolder,int,int,int) -> surfaceChanged
+    void surfaceDestroyed(android.view.SurfaceHolder) -> surfaceDestroyed
+    void drawBackground() -> a
+    android.graphics.Bitmap toGreyBmp(android.graphics.Bitmap) -> a
+    android.view.SurfaceHolder access$0(ma.fprint.CaptureActivity$CaptureView) -> a
+    void access$1(ma.fprint.CaptureActivity$CaptureView,android.graphics.Canvas) -> a
+    android.graphics.Canvas access$2(ma.fprint.CaptureActivity$CaptureView) -> b
+    int access$3(ma.fprint.CaptureActivity$CaptureView) -> c
+    int access$4(ma.fprint.CaptureActivity$CaptureView) -> d
+    int access$5(ma.fprint.CaptureActivity$CaptureView) -> e
+    boolean access$6(ma.fprint.CaptureActivity$CaptureView,byte[],int,int) -> a
+    android.graphics.Paint access$7(ma.fprint.CaptureActivity$CaptureView) -> f
+ma.fprint.CaptureActivity$CaptureView$1 -> ma.fprint.c:
+    ma.fprint.CaptureActivity$CaptureView this$1 -> a
+    void drawPicture(int,byte[]) -> a
+    void drawCancel() -> a
+ma.fprint.EnrollFingerActivity -> ma.fprint.EnrollFingerActivity:
+    boolean bFirst -> a
+    android.widget.Button btnCancel -> b
+    android.widget.TextView textPlace -> c
+    android.widget.TextView textRepeat -> d
+    android.widget.TextView textContinue -> e
+    android.widget.ImageView imageView -> f
+    android.widget.LinearLayout layoutBack -> g
+    android.widget.RelativeLayout layoutImage -> h
+    int[] ic_finger -> i
+    int MSG_NEXT -> j
+    int MSG_SUCC -> k
+    int MSG_FAIL -> l
+    int MSG_DUMP -> m
+    int MSG_MOVE -> n
+    int MSG_GOON -> o
+    int curSel -> p
+    ma.library.PhoneStatusBroadcastReceiver mReceiver -> q
+    ma.library.FingerEnroll mFingerEnroll -> r
+    android.os.Handler mHandler -> s
+    void onCreate(android.os.Bundle) -> onCreate
+    void exit() -> a
+    void onClick(android.view.View) -> onClick
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    android.widget.TextView access$0(ma.fprint.EnrollFingerActivity) -> a
+    boolean access$1(ma.fprint.EnrollFingerActivity) -> b
+    android.widget.ImageView access$2(ma.fprint.EnrollFingerActivity) -> c
+    int[] access$3(ma.fprint.EnrollFingerActivity) -> d
+    void access$4$3f182cbb(ma.fprint.EnrollFingerActivity) -> e
+    android.widget.RelativeLayout access$5(ma.fprint.EnrollFingerActivity) -> f
+    void access$6(ma.fprint.EnrollFingerActivity) -> g
+    android.widget.TextView access$7(ma.fprint.EnrollFingerActivity) -> h
+    android.widget.TextView access$8(ma.fprint.EnrollFingerActivity) -> i
+    android.os.Handler access$9(ma.fprint.EnrollFingerActivity) -> j
+ma.fprint.EnrollFingerActivity$1 -> ma.fprint.d:
+    int idx -> a
+    ma.fprint.EnrollFingerActivity this$0 -> b
+    void handleMessage(android.os.Message) -> handleMessage
+ma.fprint.EnrollFingerActivity$2 -> ma.fprint.e:
+    ma.fprint.EnrollFingerActivity this$0 -> a
+    void anounceNext(int) -> a
+    void anounceMove() -> a
+    void anounceSucessed() -> b
+    void fingerLeave() -> c
+ma.fprint.FactoryActivity -> ma.fprint.FactoryActivity:
+    int MSG_IDLE -> b
+    int MSG_OPEN_FAIL -> c
+    int MSG_OPEN_PASS -> d
+    int MSG_INIT_START -> e
+    int MSG_INIT_FINISH -> f
+    int MSG_END -> g
+    int MSG_WAIT_LAST_INIT_TIMEOUT -> h
+    int PROGRESS_NONE -> i
+    int PROGRESS_OPEN_PASS -> j
+    int PROGRESS_INIT_START -> k
+    int PROGRESS_INIT_FINISH -> l
+    int PROGRESS_ALL_END -> m
+    java.lang.String strProgressPrefix -> n
+    java.lang.String strUserTipsText -> o
+    android.widget.TextView userTipsTextView -> p
+    int nProgressValue -> q
+    android.widget.TextView textProgress -> r
+    android.widget.ProgressBar progressBar -> s
+    boolean thread_stop_flag -> t
+    boolean bTimeCountStop -> u
+    android.os.Handler mHandler -> v
+    android.os.Handler initFactoryHandler -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void onDestroy() -> onDestroy
+    void onClick(android.view.View) -> onClick
+    android.widget.TextView access$0(ma.fprint.FactoryActivity) -> a
+    java.lang.String access$1(ma.fprint.FactoryActivity) -> b
+    android.widget.ProgressBar access$2(ma.fprint.FactoryActivity) -> c
+    void access$3(ma.fprint.FactoryActivity,int) -> a
+    int access$4(ma.fprint.FactoryActivity) -> d
+    android.widget.TextView access$5(ma.fprint.FactoryActivity) -> e
+    java.lang.String access$6(ma.fprint.FactoryActivity) -> f
+    boolean access$7(ma.fprint.FactoryActivity) -> g
+    java.lang.String access$8(ma.fprint.FactoryActivity,int) -> b
+    void access$9(ma.fprint.FactoryActivity,java.lang.String) -> a
+    void access$10$18b47aac(ma.fprint.FactoryActivity) -> h
+    void access$11$18b47aac(ma.fprint.FactoryActivity) -> i
+    android.os.Handler access$12(ma.fprint.FactoryActivity) -> j
+    boolean access$13(ma.fprint.FactoryActivity) -> k
+ma.fprint.FactoryActivity$1 -> ma.fprint.f:
+    ma.fprint.FactoryActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+ma.fprint.FactoryActivity$2 -> ma.fprint.g:
+    ma.fprint.FactoryActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+ma.fprint.FactoryActivity$MyThread -> ma.fprint.h:
+    ma.fprint.FactoryActivity this$0 -> a
+    void run() -> run
+ma.fprint.FactoryActivity$initFactoryRunnable -> ma.fprint.i:
+    ma.fprint.FactoryActivity this$0 -> a
+    void run() -> run
+ma.fprint.Prompt -> ma.fprint.j:
+    void e(android.app.Activity,java.lang.String) -> a
+    void w(android.app.Activity,java.lang.String) -> b
+ma.fprint.Prompt$1 -> ma.fprint.k:
+    android.app.Activity val$atv -> a
+    void onClick(android.view.View) -> onClick
+ma.fprint.Prompt$2 -> ma.fprint.l:
+    android.app.AlertDialog val$dlg -> a
+    void onClick(android.view.View) -> onClick
+ma.fprint.SetFingerActivity -> ma.fprint.SetFingerActivity:
+    int curSel -> a
+    int mRet -> b
+    byte[] bState -> c
+    boolean bUnlock -> d
+    android.widget.ListView listView -> e
+    android.widget.RelativeLayout layoutAdd -> f
+    android.widget.RelativeLayout layoutUnlock -> g
+    android.widget.RelativeLayout layoutCalibrate -> h
+    java.util.ArrayList mList -> i
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    void onClick(android.view.View) -> onClick
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void setListItem(java.util.ArrayList) -> a
+    boolean hasFingerData() -> a
+    void setButtonStatus(boolean) -> a
+    android.widget.ListView access$0(ma.fprint.SetFingerActivity) -> a
+    byte[] access$1(ma.fprint.SetFingerActivity) -> b
+    void access$2(ma.fprint.SetFingerActivity,int) -> a
+    void access$3(ma.fprint.SetFingerActivity,java.lang.String) -> a
+    int access$4(ma.fprint.SetFingerActivity) -> c
+    java.util.ArrayList access$5(ma.fprint.SetFingerActivity) -> d
+    boolean access$6(ma.fprint.SetFingerActivity) -> e
+    void access$7$2de0428b(ma.fprint.SetFingerActivity) -> f
+ma.fprint.SetFingerActivity$1 -> ma.fprint.m:
+    ma.fprint.SetFingerActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+ma.fprint.SetFingerActivity$2 -> ma.fprint.n:
+    ma.fprint.SetFingerActivity this$0 -> a
+    android.app.AlertDialog val$dlg -> b
+    void onClick(android.view.View) -> onClick
+ma.fprint.SetFingerActivity$3 -> ma.fprint.o:
+    ma.fprint.SetFingerActivity this$0 -> a
+    android.app.AlertDialog val$dlg -> b
+    void onClick(android.view.View) -> onClick
+ma.library.CaptureAction -> ma.library.a:
+    void drawPicture(int,byte[]) -> a
+    void drawCancel() -> a
+ma.library.EnrollAction -> ma.library.b:
+    void anounceNext(int) -> a
+    void anounceMove() -> a
+    void anounceSucessed() -> b
+    void fingerLeave() -> c
+ma.library.FingerAction -> ma.library.c:
+    void FingerDown() -> a
+    void FingerUp() -> b
+ma.library.FingerCapture -> ma.library.d:
+    ma.library.FingerThread mFingerThread -> a
+    ma.library.CaptureAction mCaptureAction -> b
+    byte[] srcBytes -> d
+    int W -> e
+    int H -> f
+    ma.library.FingerAction mFingerAction -> c
+    void startEnroll(ma.library.CaptureAction) -> a
+    byte[] access$0(ma.library.FingerCapture) -> a
+ma.library.FingerCapture$1 -> ma.library.e:
+    ma.library.FingerCapture this$0 -> a
+    void FingerDown() -> a
+    void FingerUp() -> b
+ma.library.FingerEnroll -> ma.library.f:
+    ma.library.FingerThread mFingerThread -> a
+    ma.library.EnrollAction mEnrollAction -> b
+    int sel -> c
+    int curGrade -> e
+    int preGrade -> f
+    ma.library.FingerAction mFingerAction -> d
+    void startEnroll(int,ma.library.EnrollAction) -> a
+    void stopEnroll() -> a
+    void access$0(ma.library.FingerEnroll,int) -> a
+    int access$1(ma.library.FingerEnroll) -> a
+    int access$2(ma.library.FingerEnroll) -> b
+    void access$3(ma.library.FingerEnroll,int) -> b
+ma.library.FingerEnroll$1 -> ma.library.g:
+    ma.library.FingerEnroll this$0 -> a
+    void FingerDown() -> a
+    void FingerUp() -> b
+ma.library.FingerThread -> ma.library.h:
+    boolean isThreadStop -> a
+    boolean hasDown -> b
+    boolean isThreadWait -> c
+    java.lang.Object fingerThreadLock -> d
+    int checkReturn -> e
+    java.util.ArrayList mHandlers -> f
+    java.util.ArrayList mFingerActions -> g
+    ma.library.FingerThread mFingerThread -> h
+    ma.library.FingerThread getFingerThreadInstance() -> a
+    void FingerThreadWait() -> b
+    void FingerThreadResume() -> c
+    void setAction(ma.library.FingerAction) -> a
+    void removeAction(ma.library.FingerAction) -> b
+    void run() -> run
+    void notifyListener(int) -> a
+ma.library.MatchAction -> ma.library.i:
+    void FingerMatchSucess() -> a
+    void FingerMatchFail() -> b
+ma.library.PhoneStatusBroadcastReceiver -> ma.library.PhoneStatusBroadcastReceiver:
+    android.os.Handler mHandler -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    android.content.IntentFilter getFilter() -> a
+ma.library.Util -> ma.library.j:
+    java.lang.String getPath() -> a
+    void vibrate$1a54e731(android.content.Context) -> a
+    void writeXML(android.content.Context,java.lang.String,int) -> a
+    int readXML$607b6e67(android.content.Context,java.lang.String) -> a
+ma.release.Fprint -> ma.release.a:
+    int open() -> a
+ma.release.Jnifp -> ma.release.Jnifp:
+    int open(java.lang.String,java.lang.String) -> open
+    int ioctl(int,int) -> ioctl
+    int initFactory() -> initFactory
+    int initBoot(int,int) -> initBoot
+    int check(int) -> check
+    int enroll(int) -> enroll
+    int match(int) -> match
+    int clear(int) -> clear
+    int doState(byte[],int) -> doState
+    int update(int) -> update
+    int power(int) -> power
+    int score(byte[],int) -> score
+    int start() -> start
+ma.service.BootService -> ma.service.BootService:
+    java.lang.String ACTION_BOOT -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+ma.service.MatchService -> ma.service.MatchService:
+    java.lang.String MA_UNLOCK -> a
+    android.os.Handler mHandler -> c
+    ma.library.PhoneStatusBroadcastReceiver mReceiver -> d
+    ma.statusMachine.FingerPrintMachine mFPM -> e
+    boolean init -> f
+    ma.library.MatchAction fa -> b
+    void onCreate() -> onCreate
+    void onDestroy() -> onDestroy
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    ma.statusMachine.FingerPrintMachine access$0(ma.service.MatchService) -> a
+ma.service.MatchService$1 -> ma.service.a:
+    ma.service.MatchService this$0 -> a
+    void FingerMatchSucess() -> a
+    void FingerMatchFail() -> b
+ma.service.MatchService$MatchHandler -> ma.service.b:
+    ma.service.MatchService this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+ma.statusMachine.FingerPrintMachine -> ma.a.a:
+    ma.statusMachine.StatePhone screenOnState -> a
+    ma.statusMachine.StatePhone screenOffState -> b
+    ma.statusMachine.StatePhone mState -> c
+    android.content.Context mContext -> d
+    void screenOn() -> a
+    void screenOff() -> b
+    void interruptIn() -> c
+    void unLocked() -> d
+    android.content.Context getContext() -> e
+    ma.statusMachine.StatePhone getScreenOnState() -> f
+    ma.statusMachine.StatePhone getScreenOffState() -> g
+    void setState(ma.statusMachine.StatePhone) -> a
+ma.statusMachine.FingerRunnable -> ma.a.b:
+    boolean isStop -> a
+    ma.statusMachine.FingerRunnable fr -> b
+    void start() -> a
+    void stopRunnable() -> b
+    void run() -> run
+ma.statusMachine.ScreenOffState -> ma.a.c:
+    ma.statusMachine.FingerPrintMachine mFPM -> a
+    void screenOn() -> a
+    void screenOff() -> b
+    void interruptIn() -> c
+ma.statusMachine.ScreenOnState -> ma.a.d:
+    ma.statusMachine.FingerPrintMachine mFPM -> a
+    void screenOn() -> a
+    void screenOff() -> b
+    void interruptIn() -> c
+ma.statusMachine.Sensor -> ma.a.e:
+    ma.statusMachine.SensorStates sensorIdle -> b
+    ma.statusMachine.SensorStates sensorSoftCheck -> c
+    ma.statusMachine.SensorStates sensorHardCheck -> d
+    ma.statusMachine.SensorStates sensorRecognition -> e
+    ma.statusMachine.SensorStates mStates -> f
+    ma.statusMachine.Sensor$Phone mPhoneStates -> g
+    boolean disableInterrupt -> a
+    ma.library.MatchAction mMatchAction -> h
+    ma.statusMachine.Sensor mSensor -> i
+    ma.statusMachine.Sensor getInstance() -> a
+    int check() -> b
+    int match() -> c
+    void reset() -> d
+    ma.library.MatchAction getMatchAction() -> e
+    void setFingerAction(ma.library.MatchAction) -> a
+    void setStates(ma.statusMachine.SensorStates) -> a
+    void setPhoneState(ma.statusMachine.Sensor$Phone) -> a
+    ma.statusMachine.SensorStates getSensorIdle() -> f
+    ma.statusMachine.SensorStates getSensorSoftCheck() -> g
+    ma.statusMachine.SensorStates getSensorHardCheck() -> h
+    ma.statusMachine.SensorStates getSensorRecognition() -> i
+ma.statusMachine.Sensor$1 -> ma.a.f:
+    ma.statusMachine.Sensor this$0 -> a
+    void FingerMatchSucess() -> a
+    void FingerMatchFail() -> b
+ma.statusMachine.Sensor$Phone -> ma.a.g:
+    ma.statusMachine.Sensor$Phone SCREEN_ON -> a
+    ma.statusMachine.Sensor$Phone SCREEN_OFF -> b
+    ma.statusMachine.Sensor$Phone[] ENUM$VALUES -> c
+    ma.statusMachine.Sensor$Phone[] values() -> values
+    ma.statusMachine.Sensor$Phone valueOf(java.lang.String) -> valueOf
+ma.statusMachine.SensorHardCheck -> ma.a.h:
+    int check() -> a
+    int match() -> b
+    void reset() -> c
+ma.statusMachine.SensorIdle -> ma.a.i:
+    int check() -> a
+    int match() -> b
+    void reset() -> c
+ma.statusMachine.SensorRecognition -> ma.a.j:
+    int check() -> a
+    int match() -> b
+    void reset() -> c
+ma.statusMachine.SensorSoftCheck -> ma.a.k:
+    boolean is -> a
+    int counts -> b
+    int check() -> a
+    int match() -> b
+    void reset() -> c
+ma.statusMachine.SensorStates -> ma.a.l:
+    int check() -> a
+    int match() -> b
+    void reset() -> c
+ma.statusMachine.StatePhone -> ma.a.m:
+    void screenOn() -> a
+    void screenOff() -> b
+    void interruptIn() -> c

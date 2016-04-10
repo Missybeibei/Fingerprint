@@ -1,0 +1,43 @@
+ma.fprint.CaptureActivity
+ma.fprint.CaptureActivity: CaptureActivity()
+ma.fprint.EnrollFingerActivity
+ma.fprint.EnrollFingerActivity: EnrollFingerActivity()
+ma.fprint.EnrollFingerActivity: void onClick(android.view.View)
+ma.fprint.FactoryActivity
+ma.fprint.FactoryActivity: FactoryActivity()
+ma.fprint.FactoryActivity: void onClick(android.view.View)
+ma.fprint.Prompt$1: void onClick(android.view.View)
+ma.fprint.Prompt$2: void onClick(android.view.View)
+ma.fprint.SetFingerActivity
+ma.fprint.SetFingerActivity: SetFingerActivity()
+ma.fprint.SetFingerActivity: void onClick(android.view.View)
+ma.fprint.SetFingerActivity$2: void onClick(android.view.View)
+ma.fprint.SetFingerActivity$3: void onClick(android.view.View)
+ma.library.PhoneStatusBroadcastReceiver
+ma.release.Jnifp
+ma.release.Jnifp: int open(java.lang.String,java.lang.String)
+ma.release.Jnifp: int close()
+ma.release.Jnifp: int ioctl(int,int)
+ma.release.Jnifp: int initFactory()
+ma.release.Jnifp: int initBoot(int,int)
+ma.release.Jnifp: int check(int)
+ma.release.Jnifp: int enroll(int)
+ma.release.Jnifp: int match(int)
+ma.release.Jnifp: int clear(int)
+ma.release.Jnifp: int doState(byte[],int)
+ma.release.Jnifp: int update(int)
+ma.release.Jnifp: int power(int)
+ma.release.Jnifp: int score(byte[],int)
+ma.release.Jnifp: int start()
+ma.release.Jnifp: int stop()
+ma.release.Jnifp: int isStoped()
+ma.release.Jnifp: int setINT()
+ma.release.Jnifp: int lopen(java.lang.String)
+ma.release.Jnifp: int lclose()
+ma.release.Jnifp: int lwrite(byte[],int)
+ma.service.BootService
+ma.service.BootService: BootService()
+ma.service.MatchService
+ma.service.MatchService: MatchService()
+ma.statusMachine.Sensor$Phone: ma.statusMachine.Sensor$Phone[] values()
+ma.statusMachine.Sensor$Phone: ma.statusMachine.Sensor$Phone valueOf(java.lang.String)

@@ -1,0 +1,57 @@
+# view AndroidManifest.xml #generated:131
+-keep class ma.fprint.AddFpActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class ma.fprint.CaptureActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:122
+-keep class ma.fprint.EnableLockAppActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class ma.fprint.EnrollFingerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class ma.fprint.FactoryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:99
+-keep class ma.fprint.FingerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class ma.fprint.FpDetail { <init>(...); }
+
+# view AndroidManifest.xml #generated:78
+-keep class ma.fprint.LockActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:112
+-keep class ma.fprint.ManageFpActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:90
+-keep class ma.fprint.PasswordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:140
+-keep class ma.fprint.SelectAppActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:36
+-keep class ma.fprint.SetFingerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:153
+-keep class ma.service.BootService { <init>(...); }
+
+# view AndroidManifest.xml #generated:148
+-keep class ma.service.MatchService { <init>(...); }
+
+# view res/layout/activity_add_fp.xml #generated:63
+-keep class ma.view.FingerProcess { <init>(...); }
+
+# view res/layout/activity_lock_ui.xml #generated:64
+# view res/layout/activity_passwd.xml #generated:40
+-keep class ma.view.NumberPad { <init>(...); }
+
+# view res/layout/activity_lock_ui.xml #generated:71
+# view res/layout/activity_passwd.xml #generated:32
+-keep class ma.view.ProcessIndication { <init>(...); }
+
+# onClick res/layout/ma_factory.xml #generated:15
+# onClick res/layout/ma_set_finger.xml #generated:18
+-keepclassmembers class * { *** onClick(...); }
+

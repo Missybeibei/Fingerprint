@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">指纹应用</string>
+    
+    <string name="ma_dlg_warn">警告</string>
+    <string name="ma_dlg_error">错误</string>
+    <string name="ma_dlg_yes">确定</string>
+    <string name="ma_dlg_no">取消</string>
+    <string name="ma_dlg_device">打开设备失败</string>
+    <string name="ma_dlg_memory">内存不足</string>
+    <string name="ma_dlg_chmodd">修改权限失败</string>
+    <string name="ma_dlg_del_touch">确认删除已注册数据吗？</string>
+    <string name="ma_dlg_dbase">打开数据库失败</string>
+    <string name="ma_dlg_table">创建数据库表失败</string>
+    <string name="ma_dlg_force_stop">未完成任务要停止吗？</string>
+    <string name="ma_dlg_capture_fail">采集数据失败.</string>
+    <string name="ma_dlg_save_fail">保存数据失败.</string>
+    <string name="ma_dlg_load_data_fail">加载数据1失败.</string>
+    <string name="ma_dlg_load_temp_fail">加载数据2失败.</string>
+    <string name="ma_dlg_finger_full">指纹已满</string>
+    <string name="ma_dlg_not_data">没有指纹数据，请添加后再打开服务</string>
+    <string name="ma_dlg_not_capture">没有发现采集数据</string>
+    <string name="ma_dlg_not_finger_template">请添加指纹数据</string>
+    
+    <string name="ma_settings">设置</string>
+    
+    <string name="ma_set_finger_title">TouchID</string>
+    <string name="ma_set_finger_use">将TouchID用于</string>
+    <string name="ma_set_finger_unlock">iPhone 解锁</string>
+    <string name="ma_set_finger_calibrate">指纹校准</string>
+    <string name="ma_set_finger_add">添加指纹</string>
+    <string name="ma_set_app_lock">应用加密</string>
+    <string name="ma_set_finger_capture">采集</string>
+    <string name="ma_set_finger_please_calibrate">请进行一次指纹校准</string>
+    
+    <string name="ma_enroll_add_finger">添加指纹</string>
+    <string name="ma_enroll_finger">注册指纹</string>
+    <string name="ma_enroll_cancel">取消</string>
+    <string name="ma_enroll_alter">换个区域</string>
+    <string name="ma_enroll_fid">指纹</string>
+    <string name="ma_enroll_succ">注册成功</string>
+    <string name="ma_enroll_fail">注册失败</string>
+    <string name="ma_enroll_place">放置手指</string>
+    <string name="ma_enroll_lift">移开手指</string>
+    <string name="ma_enroll_repeat">将手指放在主屏幕按钮上再移开，重复此步骤。</string>
+    <string name="ma_enroll_adjust">调整握手姿势</string>
+    <string name="ma_enroll_go_obtain">继续调整，获取指纹边缘</string>
+    <string name="ma_enroll_go_on">继续</string>
+    
+    <string name="ma_factory_title">工厂采集</string>
+    <string name="ma_factory_prompt">正在校准，请不要接触指纹模组</string>
+    <string name="ma_factory_capture_start">采集开始</string>
+    <string name="ma_factory_wait">请稍等......</string>
+    <string name="ma_factory_capture_stop">采集结束</string>
+    <string name="ma_factory_progress">进度(%):</string>
+    <string name="ma_factory_begin">准备工厂采集</string>
+    <string name="ma_factory_turn_to_capture_page">转向指纹测试界面</string>
+    <string name="ma_factory_capture_begin">工厂初始化开始，请等待......</string>
+    
+	<string name="ma_fprint_open_neg1">打开设备失败</string>
+    <string name="ma_fprint_open_neg2">内存不足</string>
+    <string name="ma_fprint_open_neg3">打开数据库失败</string>
+    <string name="ma_fprint_open_neg4">创建数据库表失败</string>
+    
+    <string name="ma_fprint_initfactory_neg1">内存不足</string>
+    <string name="ma_fprint_initfactory_neg2">采集数据失败</string>
+    <string name="ma_fprint_initfactory_neg3">保存数据失败</string>
+    <string name="ma_fprint_initfactory_neg4">初始化库失败</string>
+    <string name="ma_fprint_initfactory_neg5">SPI通讯错误</string>
+    
+    <string name="ma_fprint_initboot_neg1">未采集数据</string>
+    <string name="ma_fprint_initboot_neg2">加载数据失败</string>
+    <string name="ma_fprint_initboot_neg3">SPI通讯错误</string>
+    
+    <string name="ma_capture_title">图像采集</string>
+	<string name="ma_capture_tip_init">请将手指放在主屏幕按钮上检测性能</string>
+	
+    <string name="ma_fprint_match_msg_pre">匹配失败</string>
+    <string name="ma_fprint_match_msg_sub">请使用密码解锁</string>
+    
+    <string name="fp_name">指纹名称</string>
+    <string name="rename">重命名</string>
+    <string name="delete">删除</string>
+    <string name="finish">完成</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="new_name_warning">重命名不能为空!</string>
+    <string name="fp_detail_delete">确认删除指纹？</string>
+    <string name="ma_fprint_finger_default_name">指纹</string>
+    
+    <!-- string frome goodix -->
+    <string name="action_settings">设置</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="input_password">请输入密码</string>
+    <string name="input_old_password">请输入旧密码</string>
+    <string name="input_new_password">请输入新密码</string>
+    <string name="input_new_password_again">请再次输入密码</string>
+    <string name="input_other_password">输入其它密码，不能再次使用相同的密码</string>
+    <string name="wrong_passworegister_titlerd">次密码输入错误</string>
+    <string name="password_keyboard_1">1</string>
+    <string name="password_keyboard_2">2</string>
+    <string name="password_keyboard_3">3</string>
+    <string name="password_keyboard_4">4</string>
+    <string name="password_keyboard_5">5</string>
+    <string name="password_keyboard_6">6</string>
+    <string name="password_keyboard_7">7</string>
+    <string name="password_keyboard_8">8</string>
+    <string name="password_keyboard_9">9</string>
+    <string name="password_keyboard_0">0</string>
+    <string name="password_keyboard_c">&lt;-</string>
+    <string name="password_not_equal_pre">两次输入密码不同，请再尝试一次</string>
+    <string name="preferences_title_text">指纹和密码</string>
+    <string name="preferences_need_password">需要密码</string>
+    <string name="preferences_need_password_sub">进入指纹和密码设置需要密码</string>
+    <string name="preferences_lockscreen_password">锁屏密码</string>
+    <string name="preferences_lockscreen_password_sub">解锁屏幕是否需要密码</string>
+    <string name="preferences_more">></string>
+    <string name="input_password_title">输入密码</string>
+    <string name="preferences_close_password">关闭密码</string>
+    <string name="preferences_open_password">打开密码</string>
+    <string name="touchid_add_new_fingerprint">添加指纹</string>
+    <string name="capture_put_finger_on">请放置手指</string>
+    <string name="capture_notice_put_on_screen">重复抬起手指并轻松放在%1$s上的动作。</string>
+    <string name="capture_notice_put_on_screen_outside">重复抬起手指并轻松放在%1$s上的动作.</string>
+    <string name="center_area">中心区域</string>
+    <string name="outside_area">边缘区域</string>
+    <string name="default_fingerprint_description">Default fingerprint description</string>
+    <string name="title_activity_lockscreen">LockscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="lock_screen_match_fingerpring"> 匹配指纹</string>
+    <string name="touch_id">指纹管理</string>
+    <string name="add_fingerprint">指纹采集</string>
+    <string name="password_change_password">更改密码</string>
+    <string name="preferences_now">立即 ></string>
+    <string name="test_devices">设备</string>
+    <string name="test_baudrate">波特率</string>
+    <string name="preferences_on">打开</string>
+    <string name="preferences_off">关闭</string>
+    <string name="serial_port_title">串口设置</string>
+    <string name="china_unicom">中国联通</string>
+    <string name="china_mobile">中国移动</string>
+    <string name="china_telecom">中国电信</string>
+    <string name="china_unknown">未知运营商</string>
+    <string name="china_nosim">无SIM卡</string>
+    <string name="lock_screen_mismatch">指纹不匹配</string>
+    <string name="lockscreen_click_unlock">点击解屏</string>
+    <string name="lockscreen_verify_failed">再试一次</string>
+    <string name="lockscreen_no_enroll">无可用指纹</string>
+    <string name="fingerprint_manager">指纹管理</string>
+    <string name="fingerprint_manager_sub">进行指纹信息采集,指纹信息管理。</string>
+    <string name="wrong_password">密码错误</string>
+    <string name="register_title">指纹采集</string>
+    <string name="register_touchhomekey">请放置手指</string>
+    <string name="register_notice_content_one">触碰中心区域来注册您的指纹。请确保覆盖有效区域和保持手指干燥。</string>
+    <string name="register_dialog_key_good">好</string>
+    <string name="register_notice_the_hand">请抬起手指</string>
+    <string name="register_register_failed">注册超时，请返回！</string>
+    <string name="register_notice_title_keeptouch">保持触碰中心区域</string>
+    <string name="register_notice_keeptouch">感觉到震动再放开手指</string>
+    <string name="register_change_catch_style">调整持握姿势</string>
+    <string name="register_get_slide_fingerprint">继续捕捉您指纹的边缘</string>
+    <string name="register_register_complete">注册完成</string>
+    <string name="register_complete_infomation">指纹注册成功，指纹可以用于屏幕解锁等运用。</string>
+    <string name="register_notice">手指移动</string>
+    <string name="register_notice_steady">保持手指稳定</string>
+    <string name="register_notiece_steady_content">放置手指在有效区域直到被要求抬手</string>
+    <string name="register_no_piece_together">请勿大幅移动手指</string>
+    <string name="register_no_move">请稍稍移动手指</string>
+    <string name="register_no_standby">不要过早释放手指,手机震动后再抬起。</string>
+    <string name="about_ok">确定</string>
+    <string name="about">关于我们</string>
+    <string name="register_continue">继续</string>
+    <string name="testapi_check_password">checkPWD</string>
+    <string name="testapi_change_password">changePWD</string>
+    <string name="testapi_query">query</string>
+    <string name="testapi_register">register</string>
+    <string name="testapi_cancel_register">CancelReg</string>
+    <string name="testapi_recognize">Recognize</string>
+    <string name="testapi_reservce">Reserve</string>
+    <string name="testapi_get_info">GetInfo</string>
+    <string name="testapi_permission">Permission</string>
+    <string name="touchid_fp_lockscreen">指纹解屏</string>
+    <string name="touchid_display_discription">显示描述</string>
+    <string name="touchid_display_message">显示匹配信息</string>
+    <string name="touchid_name">名称</string>
+    <string name="touchid_discription">描述</string>
+    <string name="touchid_ok">保存</string>
+    <string name="touchid_cancel">取消</string>
+    <string name="touchid_delete">删除</string>
+    <string name="register_bad_images">请确保手指干燥或者指纹触控干净</string>
+    <string name="Algorithm_version">算法版本：</string>
+    <string name="application_version">应用版本：</string>
+    <string name="mode_version">模组版本：</string>
+    <string name="lockscreen_slide">滑动解锁</string>
+    <string name="lockscreen_back">返回</string>
+    <string name="application_crash">很抱歉，程序出现异常，即将退出</string>
+    <string name="addfinger_faied_toast">添加指纹失败！</string>
+    <string name="algoresult_stategy">策略 :%d</string>
+    <string name="algoresult_img_qulity">图片质量 ： %1$s</string>
+    <string name="algoresult_is_study">是否学习 ： </string>
+    <string name="algoresult_effective_area">有效面积 ： %1$s</string>
+    <string name="algoresult_is_stitch">是否拼接 ： %1$s</string>
+    <string name="algoresult_is_delete">是否回退 ：  %1$s</string>
+    <string name="algoresult_temp_count">模板数目 ：  %1$s</string>
+    <string name="algoresult_register_percent">注册进度 ： </string>
+    <string name="algoresult_overlay_ratio">重叠比例 ： %1$s</string>
+    <string name="algoresult_overlay_index">重叠模板 ：%1$s</string>
+    <string name="algoresult_register_time">注册时间 ： </string>
+    <string name="algoresult_preoverlay_ratio">上重叠率 ：%1$s</string>
+    <string name="register_duplicate">指纹 %1$s已经注册，请选择其他指纹注册</string>
+    <string name="message_notice">注意</string>
+    <string name="verify_rate">匹配度为: %1$d%%</string>
+    <!--add for activity bar begin-->
+    <string name="lockui_title">应用锁</string> 
+    <string name="fingerprint_pwd">数字密码</string>
+    <string name="fingerprint_add">新建指纹</string>
+    <string name="ma_factory_finish">校准完成</string>
+    <string name="lunchapp_title">应用列表</string>
+    <string name="addlunch">添加指纹快捷</string>
+    <string name="sure">确定</string>
+    <string name="ma_quick_lauch_app">添加快捷方式</string>
+    <string name="menu_manage_needlock_apps">加密应用</string>
+    <string name="msg_match_fail_tip">请重新尝试指纹解锁</string>
+    <!--add for activity bar begin-->
+
+    <string name="input_first_pwd">为了保护您的隐私，请输入安全密码</string>
+    <string name="input_pwd_title_new">新建</string>
+    <string name="input_pwd_title_update">修改</string>
+    <string name="input_pwd">输入安全密码</string>
+    <string name="input_confirm_pwd">请再次确认密码</string>
+    <string name="input_confirm_pwd_error">两次密码不一致，请再次确认密码</string>
+    <!--add by kuangchaowei 20150917 begin-->
+    <string name="fingerprint_mag">指纹管理</string>
+    <string name="fingerprint_phone">拍照</string>
+    <string name="fingerprint_msg">管理及设置指纹相关功能</string>
+    <string name="fingerprint_phone_msg">在相机取景界面短按指纹感应器进行拍照</string>
+    <string name="fingerprint_explain_msg">说明: 触控功能无需校验指纹信息,任意手指可进行操作。</string>
+    <string name="fingerprint_function">指纹功能</string>
+    <string name="fingerprint_touch">触控功能</string>
+    <!--add by kuangchaowei 20150917 end-->
+    <string name="fingerprint_app_unlock">应用加密</string>
+    <string name="fingerprint_screen_unlock">屏幕解锁</string>
+    <string name="fingerprint_screen_unlock_pm">黑屏唤醒</string>
+    <string name="fingerprint_title">指纹列表</string>
+    
+    
+    
+    <string name="record_fp_title_first">放置手指</string>
+    <string name="record_fp_content_first">将手指放置在背面的指纹识别器上 </string>
+    <string name="record_fp_content_remove_first">感觉到振动后再抬起手指重复录入</string>
+    <string name="record_fp_content_remove">请抬起手指</string>
+    <string name="record_fp_title_positive">请录入指纹正面</string>
+    <string name="record_fp_title_left">请录入指纹左边缘</string>
+    <string name="record_fp_title_left_top">请录入指纹上边缘</string>
+    <string name="record_fp_title_right_top">请录入指纹右边缘</string>
+    <string name="record_fp_title_right">请录入指纹下边缘</string>
+    <string name="record_fp_title_right_bottom">请录入指纹右下角</string>
+    <string name="record_fp_title_left_bottom">请录入指纹左下角</string>
+    <string name="record_fp_content_first_positive">将手指正面放置在背面指纹的感应区中心</string>
+    <string name="record_fp_content_left">将手指左边缘放置在背面指纹的感应区中心</string>
+    <string name="record_fp_content_left_top">将手指上边缘放置在背面指纹的感应区中心</string>
+    <string name="record_fp_content_right_top">将手指右边缘放置在背面指纹的感应区中心</string>
+    <string name="record_fp_content_right">将手指下边缘放置在背面指纹的感应区中心</string>
+    <string name="record_fp_content_right_bottom">将手指右下角放置在背面指纹的感应区中心</string>
+    <string name="record_fp_content_left_bottom">将手指左下角放置在背面指纹的感应区中心</string>
+    <string name="setup_end">完成</string>
+    <string name="record_successfully">指纹已成功录取</string>
+    <string name="record_default_name">新指纹%1$d</string>
+    
+    <string name="finger_notice">已设置指纹\n请使用指纹感应器进行校验</string>
+    <string name="digital_notice">解除加密\n请输入正确的数字密码</string>
+    <string name="toDigital">通过密码登录</string>
+    <string name="fp_tryagain">请再试一次!</string>
+    <string name="pwd_tryagain">密码错误，请重试!</string>
+    
+    <string name="register_no_extra_info">该处已注册，请移动手指!</string>
+    <string name="passwd_input_error_wait">密码错误次数过多, 请等待%d秒后重试</string>
+    <!-- 长按指纹接听电话：mandy.wu 20151029 begin -->
+    <string name="fingerprint_call">指纹Home键</string>
+    <string name="fingerprint_call_msg">长按指纹感应器回到主界面</string>
+    <!-- 长按指纹接听电话：mandy.wu 20151029 begin -->
+</resources>

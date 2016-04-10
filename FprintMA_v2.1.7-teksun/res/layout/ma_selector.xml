@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- No states -->
+    <item android:drawable="@drawable/ic_ma_btn_up" android:state_enabled="true" 
+        android:state_focused="false" android:state_pressed="false" android:state_selected="false"/>
+
+    <!-- selected state -->
+    <item android:drawable="@drawable/ic_ma_btn_sel" android:state_enabled="true" 
+        android:state_focused="false" android:state_pressed="false" android:state_selected="true"/>
+
+    <!-- Focused states -->
+    <item android:drawable="@drawable/ic_ma_btn_down" android:state_enabled="true" 
+        android:state_focused="true" android:state_pressed="false" android:state_selected="false"/>
+
+    <!-- Pressed -->
+    <item android:drawable="@drawable/ic_ma_btn_sel" android:state_enabled="true" 
+        android:state_focused="false" android:state_pressed="true" android:state_selected="false"/>
+
+</selector>

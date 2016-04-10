@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/title_bg"
+    android:gravity="center_vertical" >
+    <TextView
+        android:textSize="19sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/lockui_title"
+        android:textColor="#1E1E1E" />
+
+</LinearLayout>
