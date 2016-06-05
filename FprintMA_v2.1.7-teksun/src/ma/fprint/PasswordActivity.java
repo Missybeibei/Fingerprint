@@ -37,6 +37,11 @@ import ma.service.IFingerprintService;
  * Description:
  * </p>
  */
+
+
+// add some commetn to comfirm change
+
+
 public class PasswordActivity extends Activity implements OnNumberClickListener{
 
 	public static final String CHECK_PASSWORD = "check.password";
